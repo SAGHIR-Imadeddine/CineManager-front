@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.font-light {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-light-italic {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-regular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-medium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+:root{
+  --white     : #F3F3F3;
+  --grey        : #5D737E;
+  --orange       : #F79824;
+  --dark-blue  : #000523;
+
+}
+
+#root {
+  min-width: 100%;
+  min-height: 100dvh;
+}
+
+.primary-btn{
+  width: auto;
+  padding: 4px 14px;
+  color: var(--white);
+  background-color: var(--orange);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.primary-btn:hover{
+  background-color: var(--dark-blue);
+  border: solid;
+  border-width: 1px;
+  border-color: var(--orange);
+  box-shadow: 2px 1px 5px #f6b758;
+  transform: translateY(-5px);
+  transition: ease-in-out;
+  transition-duration: 600ms;
+}
+
+.secondary-btn{
+  width: auto;
+  padding: 4px 14px;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.secondary-btn:hover{
+  background-color: var(--orange);
+  border: solid;
+  border-width: 1px;
+  border-color: var(--dark-blue);
+  box-shadow: 2px 1px 5px #313131;
+  transform: translateY(-5px);
+  transition: ease-in-out;
+  transition-duration: 600ms;
+}
+
+a{
+  text-decoration: none;
+}

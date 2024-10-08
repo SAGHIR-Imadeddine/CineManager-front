@@ -1,0 +1,39 @@
+{
+    "users" : [
+        {
+            "id"        : 1,
+            "nom"       : "Jhonson",
+            "prenom"    : "Carl",
+            "age"       : 26,
+            "email"     : "cj.gta@mail.co",
+            "password"  : "123123123",
+            "role"      : "user"
+        }
+    ],
+
+    "rooms" : [
+        {
+            "id" : 1
+        }
+    ],
+
+    "movies" : [
+        {
+            "id" : 1
+        }
+    ],
+
+    "sessions" : [
+        {
+            "id"        : 1,
+            "movie_id"  : 1,
+            "room_id"   : 1
+        }
+    ],
+    "seats" : [
+        {
+            "id"            : 1,
+            "session_id"    : 1
+        }
+    ]
+}

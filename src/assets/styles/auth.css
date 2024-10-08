@@ -1,0 +1,116 @@
+#auth{
+    min-width: 100dvw;
+    min-height: 100dvh;
+    background-image: url('../images/auth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 40%;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(93, 115, 126, 0.6);
+
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 45%;
+}
+
+.input-container>label{
+    color: var(--white);
+    display: flex;
+    gap: 5px;
+}
+
+.input-container>label>span{
+    color: red;
+    font-size: xx-small;
+    align-self: start;
+}
+
+.input-container>input{
+    background-color: var(--dark-blue);
+    color: var(--orange);
+    border: none;
+    padding: 4px 14px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.form-actions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.form-actions > button{
+    width: 20%;
+    align-self: center;
+    width: auto;
+    padding: 4px 14px;
+    color: var(--white);
+    background-color: rgb(240, 137, 2);
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.form-actions > button:hover{
+    background-color: rgb(228, 161, 75);
+    border: 0.5px solid rgb(255, 124, 2);
+    color: var(--dark-blue);
+    box-shadow: 2px 1px 5px rgb(223, 126, 0);
+    transition: ease-in-out;
+    transition-duration: 400ms;
+}
+
+.form-switch{
+    color: aliceblue;
+    align-self: end;
+}
+.form-switch>a{
+    color: var(--orange);
+}
+
+.form-switch>a:hover{
+    text-decoration: underline;
+}
+
+.goBack{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    
+}
+
+.goBack>a{
+    color: var(--grey);
+    text-decoration: underline;
+}
+
+.goBack:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out;
+    transition-duration: 400ms;
+}
+
+.error-msg{
+    color: var(--orange);
+    opacity: 0.6;
+}
